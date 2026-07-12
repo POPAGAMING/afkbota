@@ -6,9 +6,9 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
-    "version": "",
+    "ip": "ravencrestsmp.falix.dev",
+    "port": ,
+    "version": "1.21.11",
     "try-creative": false
   },
   "position": {
@@ -27,13 +27,13 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
+      "enabled": false,
+      "repeat": false,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "",
+        "",
+        ""
       ]
     },
     "chat-log": true,
@@ -60,8 +60,8 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
-    "chat": true,
+    "beds": true,
+    "chat": false,
     "console-commands": true
   },
   "combat": {
@@ -69,12 +69,12 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "enabled": true,
+    "webhookUrl": "https://discord.com/api/webhooks/1525692351815614535/7O2d-yHfb87SsZD3caq1t3k_23cBG2HW5qR8NxjIav-rqziwNvKQnRmBxmpxHF4bVULG",
     "events": {
       "connect": true,
       "disconnect": true,
