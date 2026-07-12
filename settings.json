@@ -7,7 +7,6 @@
   },
   "server": {
     "ip": "ravencrestsmp.falix.dev",
-    "port": ,
     "version": "1.21.11",
     "try-creative": false
   },
